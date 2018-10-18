@@ -32,7 +32,7 @@ def full? (incomplete_board)
   if incomplete_board.all? {|space| space == "X" || space == "O"}
     return true
   else
-    return FALSE
+    return false
   end
 end
 
